@@ -1,0 +1,705 @@
+[INFO] Running Processor - FPipelinedProcessor mode
+[INFO] Start address: 0x80002000
+[INFO] Executable path: ../programs/bins/asms/1-even.r5ob
+[INFO] Number of instructions: 100
+[DEBUG] got instruction 00006297 at 80002000
+[DEBUG] opcode = 17, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x6000
+[DEBUG] op1: 2147491840, op2: 24576
+[DEBUG] Result of 17000 is: 2147516416
+[OUT] 80002000 | next_pc = 80002004 | x5 = 80008000 | mem[?] = 00000000
+[INFO] Simulated 1 instructions in 1 clock cycles
+[DEBUG] got instruction 00028293 at 80002004
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 5, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516416, op2: 0
+[DEBUG] Result of 13000 is: 2147516416
+[OUT] 80002004 | next_pc = 80002008 | x5 = 80008000 | mem[?] = 00000000
+[INFO] Simulated 2 instructions in 2 clock cycles
+[DEBUG] got instruction 0002ae03 at 80002008
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 5, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516416, op2: 0
+[DEBUG] Result of 03200 is: 2147516416
+[OUT] 80002008 | next_pc = 8000200c | x28 = 00000005 | mem[80008000] => 00000005
+[INFO] Simulated 3 instructions in 3 clock cycles
+[DEBUG] got instruction 00006317 at 8000200c
+[DEBUG] opcode = 17, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x6000
+[DEBUG] op1: 2147491852, op2: 24576
+[DEBUG] Result of 17000 is: 2147516428
+[OUT] 8000200c | next_pc = 80002010 | x6 = 8000800c | mem[?] = 00000000
+[INFO] Simulated 4 instructions in 4 clock cycles
+[DEBUG] got instruction ff830313 at 80002010
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 6, rs2 = 0, imm = -0x8
+[DEBUG] op1: 2147516428, op2: -8
+[DEBUG] Result of 13000 is: 2147516420
+[OUT] 80002010 | next_pc = 80002014 | x6 = 80008004 | mem[?] = 00000000
+[INFO] Simulated 5 instructions in 5 clock cycles
+[DEBUG] got instruction 00000393 at 80002014
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 13000 is: 0
+[OUT] 80002014 | next_pc = 80002018 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 6 instructions in 6 clock cycles
+[DEBUG] got instruction 00200393 at 80002018
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x2
+[DEBUG] op1: 0, op2: 2
+[DEBUG] Result of 13000 is: 2
+[OUT] 80002018 | next_pc = 8000201c | x7 = 00000002 | mem[?] = 00000000
+[INFO] Simulated 7 instructions in 7 clock cycles
+[DEBUG] got instruction 00000513 at 8000201c
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 13000 is: 0
+[OUT] 8000201c | next_pc = 80002020 | x10 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 8 instructions in 8 clock cycles
+[DEBUG] got instruction 03c3da63 at 80002020
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 28, imm = 0x34
+[DEBUG] op1: 2, op2: 5
+[DEBUG] Result of 63500 is: False
+[OUT] 80002020 | next_pc = 80002024 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 9 instructions in 12 clock cycles
+[DEBUG] got instruction 00032583 at 80002024
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 6, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516420, op2: 0
+[DEBUG] Result of 03200 is: 2147516420
+[OUT] 80002024 | next_pc = 80002028 | x11 = 00000002 | mem[80008004] => 00000002
+[INFO] Simulated 10 instructions in 13 clock cycles
+[DEBUG] got instruction 00430313 at 80002028
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 6, rs2 = 0, imm = 0x4
+[DEBUG] op1: 2147516420, op2: 4
+[DEBUG] Result of 13000 is: 2147516424
+[OUT] 80002028 | next_pc = 8000202c | x6 = 80008008 | mem[?] = 00000000
+[INFO] Simulated 11 instructions in 14 clock cycles
+[DEBUG] got instruction 0005ca63 at 8000202c
+[DEBUG] opcode = 63, funct3 = 4, funct7 = 00
+[DEBUG] rs1 = 11, rs2 = 0, imm = 0x14
+[DEBUG] op1: 2, op2: 0
+[DEBUG] Result of 63400 is: False
+[OUT] 8000202c | next_pc = 80002030 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 12 instructions in 18 clock cycles
+[DEBUG] got instruction 0275ef33 at 80002030
+[DEBUG] opcode = 33, funct3 = 6, funct7 = 01
+[DEBUG] rs1 = 11, rs2 = 7, imm = 0x0
+[DEBUG] op1: 2, op2: 2
+[DEBUG] Result of 33601 is: 0
+[OUT] 80002030 | next_pc = 80002034 | x30 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 13 instructions in 19 clock cycles
+[DEBUG] got instruction 000f0a63 at 80002034
+[DEBUG] opcode = 63, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 30, rs2 = 0, imm = 0x14
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 63000 is: True
+[OUT] 80002034 | next_pc = 80002048 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 14 instructions in 23 clock cycles
+[DEBUG] got instruction 00150513 at 80002048
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 10, rs2 = 0, imm = 0x1
+[DEBUG] op1: 0, op2: 1
+[DEBUG] Result of 13000 is: 1
+[OUT] 80002048 | next_pc = 8000204c | x10 = 00000001 | mem[?] = 00000000
+[INFO] Simulated 15 instructions in 24 clock cycles
+[DEBUG] got instruction 00138393 at 8000204c
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x1
+[DEBUG] op1: 2, op2: 1
+[DEBUG] Result of 13000 is: 3
+[OUT] 8000204c | next_pc = 80002050 | x7 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 16 instructions in 25 clock cycles
+[DEBUG] got instruction fd1ff06f at 80002050
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = -0x30
+[DEBUG] op1: 2147491920, op2: -48
+[DEBUG] Result of 6f000 is: 2147491872
+[OUT] 80002050 | next_pc = 80002020 | x0 = 80002020 | mem[?] = 00000000
+[INFO] Simulated 17 instructions in 26 clock cycles
+[DEBUG] got instruction 03c3da63 at 80002020
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 28, imm = 0x34
+[DEBUG] op1: 3, op2: 5
+[DEBUG] Result of 63500 is: False
+[OUT] 80002020 | next_pc = 80002024 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 18 instructions in 30 clock cycles
+[DEBUG] got instruction 00032583 at 80002024
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 6, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516424, op2: 0
+[DEBUG] Result of 03200 is: 2147516424
+[OUT] 80002024 | next_pc = 80002028 | x11 = 00000001 | mem[80008008] => 00000001
+[INFO] Simulated 19 instructions in 31 clock cycles
+[DEBUG] got instruction 00430313 at 80002028
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 6, rs2 = 0, imm = 0x4
+[DEBUG] op1: 2147516424, op2: 4
+[DEBUG] Result of 13000 is: 2147516428
+[OUT] 80002028 | next_pc = 8000202c | x6 = 8000800c | mem[?] = 00000000
+[INFO] Simulated 20 instructions in 32 clock cycles
+[DEBUG] got instruction 0005ca63 at 8000202c
+[DEBUG] opcode = 63, funct3 = 4, funct7 = 00
+[DEBUG] rs1 = 11, rs2 = 0, imm = 0x14
+[DEBUG] op1: 1, op2: 0
+[DEBUG] Result of 63400 is: False
+[OUT] 8000202c | next_pc = 80002030 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 21 instructions in 36 clock cycles
+[DEBUG] got instruction 0275ef33 at 80002030
+[DEBUG] opcode = 33, funct3 = 6, funct7 = 01
+[DEBUG] rs1 = 11, rs2 = 7, imm = 0x0
+[DEBUG] op1: 1, op2: 3
+[DEBUG] Result of 33601 is: 1
+[OUT] 80002030 | next_pc = 80002034 | x30 = 00000001 | mem[?] = 00000000
+[INFO] Simulated 22 instructions in 37 clock cycles
+[DEBUG] got instruction 000f0a63 at 80002034
+[DEBUG] opcode = 63, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 30, rs2 = 0, imm = 0x14
+[DEBUG] op1: 1, op2: 0
+[DEBUG] Result of 63000 is: False
+[OUT] 80002034 | next_pc = 80002038 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 23 instructions in 41 clock cycles
+[DEBUG] got instruction 00138393 at 80002038
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x1
+[DEBUG] op1: 3, op2: 1
+[DEBUG] Result of 13000 is: 4
+[OUT] 80002038 | next_pc = 8000203c | x7 = 00000004 | mem[?] = 00000000
+[INFO] Simulated 24 instructions in 42 clock cycles
+[DEBUG] got instruction fe5ff06f at 8000203c
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = -0x1c
+[DEBUG] op1: 2147491900, op2: -28
+[DEBUG] Result of 6f000 is: 2147491872
+[OUT] 8000203c | next_pc = 80002020 | x0 = 80002020 | mem[?] = 00000000
+[INFO] Simulated 25 instructions in 43 clock cycles
+[DEBUG] got instruction 03c3da63 at 80002020
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 28, imm = 0x34
+[DEBUG] op1: 4, op2: 5
+[DEBUG] Result of 63500 is: False
+[OUT] 80002020 | next_pc = 80002024 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 26 instructions in 47 clock cycles
+[DEBUG] got instruction 00032583 at 80002024
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 6, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516428, op2: 0
+[DEBUG] Result of 03200 is: 2147516428
+[OUT] 80002024 | next_pc = 80002028 | x11 = 00000007 | mem[8000800c] => 00000007
+[INFO] Simulated 27 instructions in 48 clock cycles
+[DEBUG] got instruction 00430313 at 80002028
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 6, rs2 = 0, imm = 0x4
+[DEBUG] op1: 2147516428, op2: 4
+[DEBUG] Result of 13000 is: 2147516432
+[OUT] 80002028 | next_pc = 8000202c | x6 = 80008010 | mem[?] = 00000000
+[INFO] Simulated 28 instructions in 49 clock cycles
+[DEBUG] got instruction 0005ca63 at 8000202c
+[DEBUG] opcode = 63, funct3 = 4, funct7 = 00
+[DEBUG] rs1 = 11, rs2 = 0, imm = 0x14
+[DEBUG] op1: 7, op2: 0
+[DEBUG] Result of 63400 is: False
+[OUT] 8000202c | next_pc = 80002030 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 29 instructions in 53 clock cycles
+[DEBUG] got instruction 0275ef33 at 80002030
+[DEBUG] opcode = 33, funct3 = 6, funct7 = 01
+[DEBUG] rs1 = 11, rs2 = 7, imm = 0x0
+[DEBUG] op1: 7, op2: 4
+[DEBUG] Result of 33601 is: 3
+[OUT] 80002030 | next_pc = 80002034 | x30 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 30 instructions in 54 clock cycles
+[DEBUG] got instruction 000f0a63 at 80002034
+[DEBUG] opcode = 63, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 30, rs2 = 0, imm = 0x14
+[DEBUG] op1: 3, op2: 0
+[DEBUG] Result of 63000 is: False
+[OUT] 80002034 | next_pc = 80002038 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 31 instructions in 58 clock cycles
+[DEBUG] got instruction 00138393 at 80002038
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x1
+[DEBUG] op1: 4, op2: 1
+[DEBUG] Result of 13000 is: 5
+[OUT] 80002038 | next_pc = 8000203c | x7 = 00000005 | mem[?] = 00000000
+[INFO] Simulated 32 instructions in 59 clock cycles
+[DEBUG] got instruction fe5ff06f at 8000203c
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = -0x1c
+[DEBUG] op1: 2147491900, op2: -28
+[DEBUG] Result of 6f000 is: 2147491872
+[OUT] 8000203c | next_pc = 80002020 | x0 = 80002020 | mem[?] = 00000000
+[INFO] Simulated 33 instructions in 60 clock cycles
+[DEBUG] got instruction 03c3da63 at 80002020
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 28, imm = 0x34
+[DEBUG] op1: 5, op2: 5
+[DEBUG] Result of 63500 is: True
+[OUT] 80002020 | next_pc = 80002054 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 34 instructions in 64 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 35 instructions in 65 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 36 instructions in 66 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 37 instructions in 67 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 38 instructions in 68 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 39 instructions in 69 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 40 instructions in 70 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 41 instructions in 71 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 42 instructions in 72 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 43 instructions in 73 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 44 instructions in 74 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 45 instructions in 75 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 46 instructions in 76 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 47 instructions in 77 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 48 instructions in 78 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 49 instructions in 79 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 50 instructions in 80 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 51 instructions in 81 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 52 instructions in 82 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 53 instructions in 83 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 54 instructions in 84 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 55 instructions in 85 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 56 instructions in 86 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 57 instructions in 87 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 58 instructions in 88 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 59 instructions in 89 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 60 instructions in 90 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 61 instructions in 91 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 62 instructions in 92 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 63 instructions in 93 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 64 instructions in 94 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 65 instructions in 95 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 66 instructions in 96 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 67 instructions in 97 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 68 instructions in 98 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 69 instructions in 99 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 70 instructions in 100 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 71 instructions in 101 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 72 instructions in 102 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 73 instructions in 103 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 74 instructions in 104 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 75 instructions in 105 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 76 instructions in 106 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 77 instructions in 107 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 78 instructions in 108 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 79 instructions in 109 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 80 instructions in 110 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 81 instructions in 111 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 82 instructions in 112 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 83 instructions in 113 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 84 instructions in 114 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 85 instructions in 115 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 86 instructions in 116 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 87 instructions in 117 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 88 instructions in 118 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 89 instructions in 119 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 90 instructions in 120 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 91 instructions in 121 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 92 instructions in 122 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 93 instructions in 123 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 94 instructions in 124 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 95 instructions in 125 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 96 instructions in 126 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 97 instructions in 127 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 98 instructions in 128 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 99 instructions in 129 clock cycles
+[DEBUG] got instruction 0000006f at 80002054
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147491924, op2: 0
+[DEBUG] Result of 6f000 is: 2147491924
+[OUT] 80002054 | next_pc = 80002054 | x0 = 80002054 | mem[?] = 00000000
+[INFO] Simulated 100 instructions in 130 clock cycles
+[INFO] Statistics saved to stats.json

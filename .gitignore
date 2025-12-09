@@ -1,0 +1,11 @@
+**/riscv-tools/**
+**/spike/**
+**/bins/**
+**/dumps/**
+**/runs/**
+**/dists/**
+**/__pycache__/**
+*.pyc
+*.trace
+*.json
+pr5/src/modules/152502010.code-workspace

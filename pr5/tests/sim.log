@@ -1,0 +1,1602 @@
+[INFO] I1_Cache - Initializing Cache: size=1024, block_size=64, assoc=1, mapping=direct, replacement=FIFO, latency=2
+[INFO] I1_Cache - Cache initialized with 16 sets, each with 1 lines.
+[INFO] L1_Cache - Initializing Cache: size=1024, block_size=64, assoc=1, mapping=direct, replacement=FIFO, latency=2
+[INFO] L1_Cache - Cache initialized with 16 sets, each with 1 lines.
+[INFO] L2_Cache - Initializing Cache: size=4096, block_size=64, assoc=4, mapping=full, replacement=LRU, latency=10
+[INFO] L2_Cache - Cache initialized with 1 sets, each with 4 lines.
+[INFO] Running Processor - FPipelinedProcessor mode
+[INFO] Start address: 0x80002000
+[INFO] Executable path: /home/kaushik/data/Documents/152502010/pr5/programs/bins/asms/5-function.r5ob
+[INFO] Number of instructions: 100
+[DEBUG] I1_Cache - Cache HIT for address 0x80002000
+[DEBUG] I1_Cache - Cache MISS for address 0x80002000
+[DEBUG] L2_Cache - Cache HIT for address 0x80002000
+[DEBUG] L2_Cache - Cache HIT for address 0x80002000
+[DEBUG] L2_Cache - Cache HIT for address 0x80002000
+[DEBUG] L2_Cache - Cache HIT for address 0x80002000
+[DEBUG] L2_Cache - Cache MISS for address 0x80002000
+[DEBUG] got instruction 00006517 at 80002000
+[DEBUG] opcode = 17, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x6000
+[DEBUG] op1: 2147491840, op2: 24576
+[DEBUG] Result of 17000 is: 2147516416
+[OUT] 80002000 | next_pc = 80002004 | x10 = 80008000 | mem[?] = 00000000
+[INFO] Simulated 1 instructions in 113 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002004
+[DEBUG] I1_Cache - Cache MISS for address 0x80002004
+[DEBUG] L2_Cache - Cache HIT for address 0x80002004
+[DEBUG] L2_Cache - Cache HIT for address 0x80002004
+[DEBUG] L2_Cache - Cache HIT for address 0x80002004
+[DEBUG] L2_Cache - Cache HIT for address 0x80002004
+[DEBUG] L2_Cache - Cache MISS for address 0x80002004
+[DEBUG] got instruction 00050513 at 80002004
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 10, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516416, op2: 0
+[DEBUG] Result of 13000 is: 2147516416
+[OUT] 80002004 | next_pc = 80002008 | x10 = 80008000 | mem[?] = 00000000
+[INFO] Simulated 2 instructions in 226 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002008
+[DEBUG] I1_Cache - Cache MISS for address 0x80002008
+[DEBUG] L2_Cache - Cache HIT for address 0x80002008
+[DEBUG] L2_Cache - Cache HIT for address 0x80002008
+[DEBUG] L2_Cache - Cache HIT for address 0x80002008
+[DEBUG] L2_Cache - Cache HIT for address 0x80002008
+[DEBUG] L2_Cache - Cache MISS for address 0x80002008
+[DEBUG] got instruction 00006597 at 80002008
+[DEBUG] opcode = 17, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x6000
+[DEBUG] op1: 2147491848, op2: 24576
+[DEBUG] Result of 17000 is: 2147516424
+[OUT] 80002008 | next_pc = 8000200c | x11 = 80008008 | mem[?] = 00000000
+[INFO] Simulated 3 instructions in 339 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000200c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000200c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000200c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000200c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000200c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000200c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000200c
+[DEBUG] got instruction 01c58593 at 8000200c
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 11, rs2 = 0, imm = 0x1c
+[DEBUG] op1: 2147516424, op2: 28
+[DEBUG] Result of 13000 is: 2147516452
+[OUT] 8000200c | next_pc = 80002010 | x11 = 80008024 | mem[?] = 00000000
+[INFO] Simulated 4 instructions in 452 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002010
+[DEBUG] I1_Cache - Cache MISS for address 0x80002010
+[DEBUG] L2_Cache - Cache HIT for address 0x80002010
+[DEBUG] L2_Cache - Cache HIT for address 0x80002010
+[DEBUG] L2_Cache - Cache HIT for address 0x80002010
+[DEBUG] L2_Cache - Cache HIT for address 0x80002010
+[DEBUG] L2_Cache - Cache MISS for address 0x80002010
+[DEBUG] got instruction 00006617 at 80002010
+[DEBUG] opcode = 17, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x6000
+[DEBUG] op1: 2147491856, op2: 24576
+[DEBUG] Result of 17000 is: 2147516432
+[OUT] 80002010 | next_pc = 80002014 | x12 = 80008010 | mem[?] = 00000000
+[INFO] Simulated 5 instructions in 565 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002014
+[DEBUG] I1_Cache - Cache MISS for address 0x80002014
+[DEBUG] L2_Cache - Cache HIT for address 0x80002014
+[DEBUG] L2_Cache - Cache HIT for address 0x80002014
+[DEBUG] L2_Cache - Cache HIT for address 0x80002014
+[DEBUG] L2_Cache - Cache HIT for address 0x80002014
+[DEBUG] L2_Cache - Cache MISS for address 0x80002014
+[DEBUG] got instruction 03860613 at 80002014
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 12, rs2 = 0, imm = 0x38
+[DEBUG] op1: 2147516432, op2: 56
+[DEBUG] Result of 13000 is: 2147516488
+[OUT] 80002014 | next_pc = 80002018 | x12 = 80008048 | mem[?] = 00000000
+[INFO] Simulated 6 instructions in 678 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002018
+[DEBUG] I1_Cache - Cache MISS for address 0x80002018
+[DEBUG] L2_Cache - Cache HIT for address 0x80002018
+[DEBUG] L2_Cache - Cache HIT for address 0x80002018
+[DEBUG] L2_Cache - Cache HIT for address 0x80002018
+[DEBUG] L2_Cache - Cache HIT for address 0x80002018
+[DEBUG] L2_Cache - Cache MISS for address 0x80002018
+[DEBUG] got instruction 014000ef at 80002018
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x14
+[DEBUG] op1: 2147491864, op2: 20
+[DEBUG] Result of 6f000 is: 2147491884
+[OUT] 80002018 | next_pc = 8000202c | x1 = 8000202c | mem[?] = 00000000
+[INFO] Simulated 7 instructions in 791 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000202c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000202c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000202c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000202c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000202c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000202c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000202c
+[DEBUG] got instruction ff010113 at 8000202c
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 2, rs2 = 0, imm = -0x10
+[DEBUG] op1: 0, op2: -16
+[DEBUG] Result of 13000 is: -16
+[OUT] 8000202c | next_pc = 80002030 | x2 = -0000010 | mem[?] = 00000000
+[INFO] Simulated 8 instructions in 904 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002030
+[DEBUG] I1_Cache - Cache MISS for address 0x80002030
+[DEBUG] L2_Cache - Cache HIT for address 0x80002030
+[DEBUG] L2_Cache - Cache HIT for address 0x80002030
+[DEBUG] L2_Cache - Cache HIT for address 0x80002030
+[DEBUG] L2_Cache - Cache HIT for address 0x80002030
+[DEBUG] L2_Cache - Cache MISS for address 0x80002030
+[DEBUG] got instruction 00112623 at 80002030
+[DEBUG] opcode = 23, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 2, rs2 = 1, imm = 0xc
+[DEBUG] op1: -16, op2: 12
+[DEBUG] Result of 23200 is: -4
+[DEBUG] L1_Cache - Cache HIT for address -0x4
+[DEBUG] L1_Cache - Cache MISS for address -0x4
+[DEBUG] L2_Cache - Cache HIT for address -0x4
+[DEBUG] L2_Cache - Cache HIT for address -0x4
+[DEBUG] L2_Cache - Cache HIT for address -0x4
+[DEBUG] L2_Cache - Cache HIT for address -0x4
+[DEBUG] L2_Cache - Cache MISS for address -0x4
+[OUT] 80002030 | next_pc = 80002034 | x? = 00000000 | mem[-0000004] <= 8000202c
+[INFO] Simulated 9 instructions in 1129 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002034
+[DEBUG] I1_Cache - Cache MISS for address 0x80002034
+[DEBUG] L2_Cache - Cache HIT for address 0x80002034
+[DEBUG] L2_Cache - Cache HIT for address 0x80002034
+[DEBUG] L2_Cache - Cache HIT for address 0x80002034
+[DEBUG] L2_Cache - Cache HIT for address 0x80002034
+[DEBUG] L2_Cache - Cache MISS for address 0x80002034
+[DEBUG] got instruction 00812423 at 80002034
+[DEBUG] opcode = 23, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 2, rs2 = 8, imm = 0x8
+[DEBUG] op1: -16, op2: 8
+[DEBUG] Result of 23200 is: -8
+[DEBUG] L1_Cache - Cache HIT for address -0x8
+[DEBUG] L1_Cache - Cache MISS for address -0x8
+[DEBUG] L2_Cache - Cache HIT for address -0x8
+[DEBUG] L2_Cache - Cache HIT for address -0x8
+[DEBUG] L2_Cache - Cache HIT for address -0x8
+[DEBUG] L2_Cache - Cache HIT for address -0x8
+[DEBUG] L2_Cache - Cache MISS for address -0x8
+[OUT] 80002034 | next_pc = 80002038 | x? = 00000000 | mem[-0000008] <= 00000000
+[INFO] Simulated 10 instructions in 1354 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002038
+[DEBUG] I1_Cache - Cache MISS for address 0x80002038
+[DEBUG] L2_Cache - Cache HIT for address 0x80002038
+[DEBUG] L2_Cache - Cache HIT for address 0x80002038
+[DEBUG] L2_Cache - Cache HIT for address 0x80002038
+[DEBUG] L2_Cache - Cache HIT for address 0x80002038
+[DEBUG] L2_Cache - Cache MISS for address 0x80002038
+[DEBUG] got instruction 00912223 at 80002038
+[DEBUG] opcode = 23, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 2, rs2 = 9, imm = 0x4
+[DEBUG] op1: -16, op2: 4
+[DEBUG] Result of 23200 is: -12
+[DEBUG] L1_Cache - Cache HIT for address -0xc
+[DEBUG] L1_Cache - Cache MISS for address -0xc
+[DEBUG] L2_Cache - Cache HIT for address -0xc
+[DEBUG] L2_Cache - Cache HIT for address -0xc
+[DEBUG] L2_Cache - Cache HIT for address -0xc
+[DEBUG] L2_Cache - Cache HIT for address -0xc
+[DEBUG] L2_Cache - Cache MISS for address -0xc
+[OUT] 80002038 | next_pc = 8000203c | x? = 00000000 | mem[-000000c] <= 00000000
+[INFO] Simulated 11 instructions in 1579 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000203c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000203c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000203c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000203c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000203c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000203c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000203c
+[DEBUG] got instruction 01212023 at 8000203c
+[DEBUG] opcode = 23, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 2, rs2 = 18, imm = 0x0
+[DEBUG] op1: -16, op2: 0
+[DEBUG] Result of 23200 is: -16
+[DEBUG] L1_Cache - Cache HIT for address -0x10
+[DEBUG] L1_Cache - Cache MISS for address -0x10
+[DEBUG] L2_Cache - Cache HIT for address -0x10
+[DEBUG] L2_Cache - Cache HIT for address -0x10
+[DEBUG] L2_Cache - Cache HIT for address -0x10
+[DEBUG] L2_Cache - Cache HIT for address -0x10
+[DEBUG] L2_Cache - Cache MISS for address -0x10
+[OUT] 8000203c | next_pc = 80002040 | x? = 00000000 | mem[-0000010] <= 00000000
+[INFO] Simulated 12 instructions in 1804 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002040
+[DEBUG] I1_Cache - Cache MISS for address 0x80002040
+[DEBUG] L2_Cache - Cache HIT for address 0x80002040
+[DEBUG] L2_Cache - Cache HIT for address 0x80002040
+[DEBUG] L2_Cache - Cache HIT for address 0x80002040
+[DEBUG] L2_Cache - Cache HIT for address 0x80002040
+[DEBUG] L2_Cache - Cache MISS for address 0x80002040
+[DEBUG] got instruction 00000413 at 80002040
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 13000 is: 0
+[OUT] 80002040 | next_pc = 80002044 | x8 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 13 instructions in 1917 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002044
+[DEBUG] I1_Cache - Cache MISS for address 0x80002044
+[DEBUG] L2_Cache - Cache HIT for address 0x80002044
+[DEBUG] L2_Cache - Cache HIT for address 0x80002044
+[DEBUG] L2_Cache - Cache HIT for address 0x80002044
+[DEBUG] L2_Cache - Cache HIT for address 0x80002044
+[DEBUG] L2_Cache - Cache MISS for address 0x80002044
+[DEBUG] got instruction 00300313 at 80002044
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x3
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 13000 is: 3
+[OUT] 80002044 | next_pc = 80002048 | x6 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 14 instructions in 2030 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002048
+[DEBUG] I1_Cache - Cache MISS for address 0x80002048
+[DEBUG] L2_Cache - Cache HIT for address 0x80002048
+[DEBUG] L2_Cache - Cache HIT for address 0x80002048
+[DEBUG] L2_Cache - Cache HIT for address 0x80002048
+[DEBUG] L2_Cache - Cache HIT for address 0x80002048
+[DEBUG] L2_Cache - Cache MISS for address 0x80002048
+[DEBUG] got instruction 08645063 at 80002048
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 8, rs2 = 6, imm = 0x80
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 63500 is: False
+[OUT] 80002048 | next_pc = 8000204c | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 15 instructions in 2146 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000204c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000204c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000204c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000204c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000204c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000204c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000204c
+[DEBUG] got instruction 00000493 at 8000204c
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 13000 is: 0
+[OUT] 8000204c | next_pc = 80002050 | x9 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 16 instructions in 2259 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002050
+[DEBUG] I1_Cache - Cache MISS for address 0x80002050
+[DEBUG] L2_Cache - Cache HIT for address 0x80002050
+[DEBUG] L2_Cache - Cache HIT for address 0x80002050
+[DEBUG] L2_Cache - Cache HIT for address 0x80002050
+[DEBUG] L2_Cache - Cache HIT for address 0x80002050
+[DEBUG] L2_Cache - Cache MISS for address 0x80002050
+[DEBUG] got instruction 00300313 at 80002050
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x3
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 13000 is: 3
+[OUT] 80002050 | next_pc = 80002054 | x6 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 17 instructions in 2372 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002054
+[DEBUG] I1_Cache - Cache MISS for address 0x80002054
+[DEBUG] L2_Cache - Cache HIT for address 0x80002054
+[DEBUG] L2_Cache - Cache HIT for address 0x80002054
+[DEBUG] L2_Cache - Cache HIT for address 0x80002054
+[DEBUG] L2_Cache - Cache HIT for address 0x80002054
+[DEBUG] L2_Cache - Cache MISS for address 0x80002054
+[DEBUG] got instruction 0664d663 at 80002054
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 9, rs2 = 6, imm = 0x6c
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 63500 is: False
+[OUT] 80002054 | next_pc = 80002058 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 18 instructions in 2488 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002058
+[DEBUG] I1_Cache - Cache MISS for address 0x80002058
+[DEBUG] L2_Cache - Cache HIT for address 0x80002058
+[DEBUG] L2_Cache - Cache HIT for address 0x80002058
+[DEBUG] L2_Cache - Cache HIT for address 0x80002058
+[DEBUG] L2_Cache - Cache HIT for address 0x80002058
+[DEBUG] L2_Cache - Cache MISS for address 0x80002058
+[DEBUG] got instruction 00000293 at 80002058
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 13000 is: 0
+[OUT] 80002058 | next_pc = 8000205c | x5 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 19 instructions in 2601 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000205c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000205c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000205c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000205c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000205c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000205c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000205c
+[DEBUG] got instruction 00000913 at 8000205c
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 13000 is: 0
+[OUT] 8000205c | next_pc = 80002060 | x18 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 20 instructions in 2714 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002060
+[DEBUG] I1_Cache - Cache MISS for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache MISS for address 0x80002060
+[DEBUG] got instruction 00300313 at 80002060
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x3
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 13000 is: 3
+[OUT] 80002060 | next_pc = 80002064 | x6 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 21 instructions in 2827 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002064
+[DEBUG] I1_Cache - Cache MISS for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache MISS for address 0x80002064
+[DEBUG] got instruction 02695e63 at 80002064
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 18, rs2 = 6, imm = 0x3c
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 63500 is: False
+[OUT] 80002064 | next_pc = 80002068 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 22 instructions in 2943 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002068
+[DEBUG] I1_Cache - Cache MISS for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache MISS for address 0x80002068
+[DEBUG] got instruction 026403b3 at 80002068
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 8, rs2 = 6, imm = 0x0
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 33001 is: 0
+[OUT] 80002068 | next_pc = 8000206c | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 23 instructions in 3056 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000206c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000206c
+[DEBUG] got instruction 012383b3 at 8000206c
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 18, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 33000 is: 0
+[OUT] 8000206c | next_pc = 80002070 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 24 instructions in 3169 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002070
+[DEBUG] I1_Cache - Cache MISS for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache MISS for address 0x80002070
+[DEBUG] got instruction 00239393 at 80002070
+[DEBUG] opcode = 13, funct3 = 1, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x2
+[DEBUG] op1: 0, op2: 2
+[DEBUG] Result of 13100 is: 0
+[OUT] 80002070 | next_pc = 80002074 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 25 instructions in 3282 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002074
+[DEBUG] I1_Cache - Cache MISS for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache MISS for address 0x80002074
+[DEBUG] got instruction 00750e33 at 80002074
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 10, rs2 = 7, imm = 0x0
+[DEBUG] op1: 2147516416, op2: 0
+[DEBUG] Result of 33000 is: 2147516416
+[OUT] 80002074 | next_pc = 80002078 | x28 = 80008000 | mem[?] = 00000000
+[INFO] Simulated 26 instructions in 3395 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002078
+[DEBUG] I1_Cache - Cache MISS for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache MISS for address 0x80002078
+[DEBUG] got instruction 000e2e83 at 80002078
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 28, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516416, op2: 0
+[DEBUG] Result of 03200 is: 2147516416
+[DEBUG] L1_Cache - Cache HIT for address 0x80008000
+[DEBUG] L1_Cache - Cache MISS for address 0x80008000
+[DEBUG] L2_Cache - Cache HIT for address 0x80008000
+[DEBUG] L2_Cache - Cache HIT for address 0x80008000
+[DEBUG] L2_Cache - Cache HIT for address 0x80008000
+[DEBUG] L2_Cache - Cache HIT for address 0x80008000
+[DEBUG] L2_Cache - Cache MISS for address 0x80008000
+[OUT] 80002078 | next_pc = 8000207c | x29 = 00000001 | mem[80008000] => 00000001
+[INFO] Simulated 27 instructions in 3620 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000207c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000207c
+[DEBUG] got instruction 026903b3 at 8000207c
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 18, rs2 = 6, imm = 0x0
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 33001 is: 0
+[OUT] 8000207c | next_pc = 80002080 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 28 instructions in 3733 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002080
+[DEBUG] I1_Cache - Cache MISS for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache MISS for address 0x80002080
+[DEBUG] got instruction 007483b3 at 80002080
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 9, rs2 = 7, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 33000 is: 0
+[OUT] 80002080 | next_pc = 80002084 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 29 instructions in 3846 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002084
+[DEBUG] I1_Cache - Cache MISS for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache MISS for address 0x80002084
+[DEBUG] got instruction 00239393 at 80002084
+[DEBUG] opcode = 13, funct3 = 1, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x2
+[DEBUG] op1: 0, op2: 2
+[DEBUG] Result of 13100 is: 0
+[OUT] 80002084 | next_pc = 80002088 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 30 instructions in 3959 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002088
+[DEBUG] I1_Cache - Cache MISS for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache MISS for address 0x80002088
+[DEBUG] got instruction 00758e33 at 80002088
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 11, rs2 = 7, imm = 0x0
+[DEBUG] op1: 2147516452, op2: 0
+[DEBUG] Result of 33000 is: 2147516452
+[OUT] 80002088 | next_pc = 8000208c | x28 = 80008024 | mem[?] = 00000000
+[INFO] Simulated 31 instructions in 4072 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000208c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000208c
+[DEBUG] got instruction 000e2f03 at 8000208c
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 28, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516452, op2: 0
+[DEBUG] Result of 03200 is: 2147516452
+[DEBUG] L1_Cache - Cache HIT for address 0x80008024
+[DEBUG] L1_Cache - Cache MISS for address 0x80008024
+[DEBUG] L2_Cache - Cache HIT for address 0x80008024
+[DEBUG] L2_Cache - Cache HIT for address 0x80008024
+[DEBUG] L2_Cache - Cache HIT for address 0x80008024
+[DEBUG] L2_Cache - Cache HIT for address 0x80008024
+[DEBUG] L2_Cache - Cache MISS for address 0x80008024
+[OUT] 8000208c | next_pc = 80002090 | x30 = 00000001 | mem[80008024] => 00000001
+[INFO] Simulated 32 instructions in 4297 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002090
+[DEBUG] I1_Cache - Cache MISS for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache MISS for address 0x80002090
+[DEBUG] got instruction 03ee8fb3 at 80002090
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 29, rs2 = 30, imm = 0x0
+[DEBUG] op1: 1, op2: 1
+[DEBUG] Result of 33001 is: 1
+[OUT] 80002090 | next_pc = 80002094 | x31 = 00000001 | mem[?] = 00000000
+[INFO] Simulated 33 instructions in 4410 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002094
+[DEBUG] I1_Cache - Cache MISS for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache MISS for address 0x80002094
+[DEBUG] got instruction 01f282b3 at 80002094
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 5, rs2 = 31, imm = 0x0
+[DEBUG] op1: 0, op2: 1
+[DEBUG] Result of 33000 is: 1
+[OUT] 80002094 | next_pc = 80002098 | x5 = 00000001 | mem[?] = 00000000
+[INFO] Simulated 34 instructions in 4523 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002098
+[DEBUG] I1_Cache - Cache MISS for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache MISS for address 0x80002098
+[DEBUG] got instruction 00190913 at 80002098
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 18, rs2 = 0, imm = 0x1
+[DEBUG] op1: 0, op2: 1
+[DEBUG] Result of 13000 is: 1
+[OUT] 80002098 | next_pc = 8000209c | x18 = 00000001 | mem[?] = 00000000
+[INFO] Simulated 35 instructions in 4636 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000209c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000209c
+[DEBUG] got instruction fc5ff06f at 8000209c
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = -0x3c
+[DEBUG] op1: 2147491996, op2: -60
+[DEBUG] Result of 6f000 is: 2147491936
+[OUT] 8000209c | next_pc = 80002060 | x0 = 80002060 | mem[?] = 00000000
+[INFO] Simulated 36 instructions in 4749 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002060
+[DEBUG] I1_Cache - Cache MISS for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache MISS for address 0x80002060
+[DEBUG] got instruction 00300313 at 80002060
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x3
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 13000 is: 3
+[OUT] 80002060 | next_pc = 80002064 | x6 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 37 instructions in 4862 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002064
+[DEBUG] I1_Cache - Cache MISS for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache MISS for address 0x80002064
+[DEBUG] got instruction 02695e63 at 80002064
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 18, rs2 = 6, imm = 0x3c
+[DEBUG] op1: 1, op2: 3
+[DEBUG] Result of 63500 is: False
+[OUT] 80002064 | next_pc = 80002068 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 38 instructions in 4978 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002068
+[DEBUG] I1_Cache - Cache MISS for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache MISS for address 0x80002068
+[DEBUG] got instruction 026403b3 at 80002068
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 8, rs2 = 6, imm = 0x0
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 33001 is: 0
+[OUT] 80002068 | next_pc = 8000206c | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 39 instructions in 5091 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000206c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000206c
+[DEBUG] got instruction 012383b3 at 8000206c
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 18, imm = 0x0
+[DEBUG] op1: 0, op2: 1
+[DEBUG] Result of 33000 is: 1
+[OUT] 8000206c | next_pc = 80002070 | x7 = 00000001 | mem[?] = 00000000
+[INFO] Simulated 40 instructions in 5204 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002070
+[DEBUG] I1_Cache - Cache MISS for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache MISS for address 0x80002070
+[DEBUG] got instruction 00239393 at 80002070
+[DEBUG] opcode = 13, funct3 = 1, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x2
+[DEBUG] op1: 1, op2: 2
+[DEBUG] Result of 13100 is: 4
+[OUT] 80002070 | next_pc = 80002074 | x7 = 00000004 | mem[?] = 00000000
+[INFO] Simulated 41 instructions in 5317 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002074
+[DEBUG] I1_Cache - Cache MISS for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache MISS for address 0x80002074
+[DEBUG] got instruction 00750e33 at 80002074
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 10, rs2 = 7, imm = 0x0
+[DEBUG] op1: 2147516416, op2: 4
+[DEBUG] Result of 33000 is: 2147516420
+[OUT] 80002074 | next_pc = 80002078 | x28 = 80008004 | mem[?] = 00000000
+[INFO] Simulated 42 instructions in 5430 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002078
+[DEBUG] I1_Cache - Cache MISS for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache MISS for address 0x80002078
+[DEBUG] got instruction 000e2e83 at 80002078
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 28, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516420, op2: 0
+[DEBUG] Result of 03200 is: 2147516420
+[DEBUG] L1_Cache - Cache HIT for address 0x80008004
+[DEBUG] L1_Cache - Cache MISS for address 0x80008004
+[DEBUG] L2_Cache - Cache HIT for address 0x80008004
+[DEBUG] L2_Cache - Cache HIT for address 0x80008004
+[DEBUG] L2_Cache - Cache HIT for address 0x80008004
+[DEBUG] L2_Cache - Cache HIT for address 0x80008004
+[DEBUG] L2_Cache - Cache MISS for address 0x80008004
+[OUT] 80002078 | next_pc = 8000207c | x29 = 00000002 | mem[80008004] => 00000002
+[INFO] Simulated 43 instructions in 5655 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000207c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000207c
+[DEBUG] got instruction 026903b3 at 8000207c
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 18, rs2 = 6, imm = 0x0
+[DEBUG] op1: 1, op2: 3
+[DEBUG] Result of 33001 is: 3
+[OUT] 8000207c | next_pc = 80002080 | x7 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 44 instructions in 5768 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002080
+[DEBUG] I1_Cache - Cache MISS for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache MISS for address 0x80002080
+[DEBUG] got instruction 007483b3 at 80002080
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 9, rs2 = 7, imm = 0x0
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 33000 is: 3
+[OUT] 80002080 | next_pc = 80002084 | x7 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 45 instructions in 5881 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002084
+[DEBUG] I1_Cache - Cache MISS for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache MISS for address 0x80002084
+[DEBUG] got instruction 00239393 at 80002084
+[DEBUG] opcode = 13, funct3 = 1, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x2
+[DEBUG] op1: 3, op2: 2
+[DEBUG] Result of 13100 is: 12
+[OUT] 80002084 | next_pc = 80002088 | x7 = 0000000c | mem[?] = 00000000
+[INFO] Simulated 46 instructions in 5994 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002088
+[DEBUG] I1_Cache - Cache MISS for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache MISS for address 0x80002088
+[DEBUG] got instruction 00758e33 at 80002088
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 11, rs2 = 7, imm = 0x0
+[DEBUG] op1: 2147516452, op2: 12
+[DEBUG] Result of 33000 is: 2147516464
+[OUT] 80002088 | next_pc = 8000208c | x28 = 80008030 | mem[?] = 00000000
+[INFO] Simulated 47 instructions in 6107 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000208c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000208c
+[DEBUG] got instruction 000e2f03 at 8000208c
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 28, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516464, op2: 0
+[DEBUG] Result of 03200 is: 2147516464
+[DEBUG] L1_Cache - Cache HIT for address 0x80008030
+[DEBUG] L1_Cache - Cache MISS for address 0x80008030
+[DEBUG] L2_Cache - Cache HIT for address 0x80008030
+[DEBUG] L2_Cache - Cache HIT for address 0x80008030
+[DEBUG] L2_Cache - Cache HIT for address 0x80008030
+[DEBUG] L2_Cache - Cache HIT for address 0x80008030
+[DEBUG] L2_Cache - Cache MISS for address 0x80008030
+[OUT] 8000208c | next_pc = 80002090 | x30 = 00000001 | mem[80008030] => 00000001
+[INFO] Simulated 48 instructions in 6332 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002090
+[DEBUG] I1_Cache - Cache MISS for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache MISS for address 0x80002090
+[DEBUG] got instruction 03ee8fb3 at 80002090
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 29, rs2 = 30, imm = 0x0
+[DEBUG] op1: 2, op2: 1
+[DEBUG] Result of 33001 is: 2
+[OUT] 80002090 | next_pc = 80002094 | x31 = 00000002 | mem[?] = 00000000
+[INFO] Simulated 49 instructions in 6445 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002094
+[DEBUG] I1_Cache - Cache MISS for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache MISS for address 0x80002094
+[DEBUG] got instruction 01f282b3 at 80002094
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 5, rs2 = 31, imm = 0x0
+[DEBUG] op1: 1, op2: 2
+[DEBUG] Result of 33000 is: 3
+[OUT] 80002094 | next_pc = 80002098 | x5 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 50 instructions in 6558 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002098
+[DEBUG] I1_Cache - Cache MISS for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache MISS for address 0x80002098
+[DEBUG] got instruction 00190913 at 80002098
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 18, rs2 = 0, imm = 0x1
+[DEBUG] op1: 1, op2: 1
+[DEBUG] Result of 13000 is: 2
+[OUT] 80002098 | next_pc = 8000209c | x18 = 00000002 | mem[?] = 00000000
+[INFO] Simulated 51 instructions in 6671 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000209c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000209c
+[DEBUG] got instruction fc5ff06f at 8000209c
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = -0x3c
+[DEBUG] op1: 2147491996, op2: -60
+[DEBUG] Result of 6f000 is: 2147491936
+[OUT] 8000209c | next_pc = 80002060 | x0 = 80002060 | mem[?] = 00000000
+[INFO] Simulated 52 instructions in 6784 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002060
+[DEBUG] I1_Cache - Cache MISS for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache MISS for address 0x80002060
+[DEBUG] got instruction 00300313 at 80002060
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x3
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 13000 is: 3
+[OUT] 80002060 | next_pc = 80002064 | x6 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 53 instructions in 6897 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002064
+[DEBUG] I1_Cache - Cache MISS for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache MISS for address 0x80002064
+[DEBUG] got instruction 02695e63 at 80002064
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 18, rs2 = 6, imm = 0x3c
+[DEBUG] op1: 2, op2: 3
+[DEBUG] Result of 63500 is: False
+[OUT] 80002064 | next_pc = 80002068 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 54 instructions in 7013 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002068
+[DEBUG] I1_Cache - Cache MISS for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache MISS for address 0x80002068
+[DEBUG] got instruction 026403b3 at 80002068
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 8, rs2 = 6, imm = 0x0
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 33001 is: 0
+[OUT] 80002068 | next_pc = 8000206c | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 55 instructions in 7126 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000206c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000206c
+[DEBUG] got instruction 012383b3 at 8000206c
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 18, imm = 0x0
+[DEBUG] op1: 0, op2: 2
+[DEBUG] Result of 33000 is: 2
+[OUT] 8000206c | next_pc = 80002070 | x7 = 00000002 | mem[?] = 00000000
+[INFO] Simulated 56 instructions in 7239 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002070
+[DEBUG] I1_Cache - Cache MISS for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache MISS for address 0x80002070
+[DEBUG] got instruction 00239393 at 80002070
+[DEBUG] opcode = 13, funct3 = 1, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x2
+[DEBUG] op1: 2, op2: 2
+[DEBUG] Result of 13100 is: 8
+[OUT] 80002070 | next_pc = 80002074 | x7 = 00000008 | mem[?] = 00000000
+[INFO] Simulated 57 instructions in 7352 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002074
+[DEBUG] I1_Cache - Cache MISS for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache MISS for address 0x80002074
+[DEBUG] got instruction 00750e33 at 80002074
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 10, rs2 = 7, imm = 0x0
+[DEBUG] op1: 2147516416, op2: 8
+[DEBUG] Result of 33000 is: 2147516424
+[OUT] 80002074 | next_pc = 80002078 | x28 = 80008008 | mem[?] = 00000000
+[INFO] Simulated 58 instructions in 7465 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002078
+[DEBUG] I1_Cache - Cache MISS for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache MISS for address 0x80002078
+[DEBUG] got instruction 000e2e83 at 80002078
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 28, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516424, op2: 0
+[DEBUG] Result of 03200 is: 2147516424
+[DEBUG] L1_Cache - Cache HIT for address 0x80008008
+[DEBUG] L1_Cache - Cache MISS for address 0x80008008
+[DEBUG] L2_Cache - Cache HIT for address 0x80008008
+[DEBUG] L2_Cache - Cache HIT for address 0x80008008
+[DEBUG] L2_Cache - Cache HIT for address 0x80008008
+[DEBUG] L2_Cache - Cache HIT for address 0x80008008
+[DEBUG] L2_Cache - Cache MISS for address 0x80008008
+[OUT] 80002078 | next_pc = 8000207c | x29 = 00000003 | mem[80008008] => 00000003
+[INFO] Simulated 59 instructions in 7690 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000207c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000207c
+[DEBUG] got instruction 026903b3 at 8000207c
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 18, rs2 = 6, imm = 0x0
+[DEBUG] op1: 2, op2: 3
+[DEBUG] Result of 33001 is: 6
+[OUT] 8000207c | next_pc = 80002080 | x7 = 00000006 | mem[?] = 00000000
+[INFO] Simulated 60 instructions in 7803 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002080
+[DEBUG] I1_Cache - Cache MISS for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache MISS for address 0x80002080
+[DEBUG] got instruction 007483b3 at 80002080
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 9, rs2 = 7, imm = 0x0
+[DEBUG] op1: 0, op2: 6
+[DEBUG] Result of 33000 is: 6
+[OUT] 80002080 | next_pc = 80002084 | x7 = 00000006 | mem[?] = 00000000
+[INFO] Simulated 61 instructions in 7916 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002084
+[DEBUG] I1_Cache - Cache MISS for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache MISS for address 0x80002084
+[DEBUG] got instruction 00239393 at 80002084
+[DEBUG] opcode = 13, funct3 = 1, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x2
+[DEBUG] op1: 6, op2: 2
+[DEBUG] Result of 13100 is: 24
+[OUT] 80002084 | next_pc = 80002088 | x7 = 00000018 | mem[?] = 00000000
+[INFO] Simulated 62 instructions in 8029 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002088
+[DEBUG] I1_Cache - Cache MISS for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache MISS for address 0x80002088
+[DEBUG] got instruction 00758e33 at 80002088
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 11, rs2 = 7, imm = 0x0
+[DEBUG] op1: 2147516452, op2: 24
+[DEBUG] Result of 33000 is: 2147516476
+[OUT] 80002088 | next_pc = 8000208c | x28 = 8000803c | mem[?] = 00000000
+[INFO] Simulated 63 instructions in 8142 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000208c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000208c
+[DEBUG] got instruction 000e2f03 at 8000208c
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 28, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516476, op2: 0
+[DEBUG] Result of 03200 is: 2147516476
+[DEBUG] L1_Cache - Cache HIT for address 0x8000803c
+[DEBUG] L1_Cache - Cache MISS for address 0x8000803c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000803c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000803c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000803c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000803c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000803c
+[OUT] 8000208c | next_pc = 80002090 | x30 = 00000000 | mem[8000803c] => 00000000
+[INFO] Simulated 64 instructions in 8367 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002090
+[DEBUG] I1_Cache - Cache MISS for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache MISS for address 0x80002090
+[DEBUG] got instruction 03ee8fb3 at 80002090
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 29, rs2 = 30, imm = 0x0
+[DEBUG] op1: 3, op2: 0
+[DEBUG] Result of 33001 is: 0
+[OUT] 80002090 | next_pc = 80002094 | x31 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 65 instructions in 8480 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002094
+[DEBUG] I1_Cache - Cache MISS for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache MISS for address 0x80002094
+[DEBUG] got instruction 01f282b3 at 80002094
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 5, rs2 = 31, imm = 0x0
+[DEBUG] op1: 3, op2: 0
+[DEBUG] Result of 33000 is: 3
+[OUT] 80002094 | next_pc = 80002098 | x5 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 66 instructions in 8593 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002098
+[DEBUG] I1_Cache - Cache MISS for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache MISS for address 0x80002098
+[DEBUG] got instruction 00190913 at 80002098
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 18, rs2 = 0, imm = 0x1
+[DEBUG] op1: 2, op2: 1
+[DEBUG] Result of 13000 is: 3
+[OUT] 80002098 | next_pc = 8000209c | x18 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 67 instructions in 8706 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000209c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000209c
+[DEBUG] got instruction fc5ff06f at 8000209c
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = -0x3c
+[DEBUG] op1: 2147491996, op2: -60
+[DEBUG] Result of 6f000 is: 2147491936
+[OUT] 8000209c | next_pc = 80002060 | x0 = 80002060 | mem[?] = 00000000
+[INFO] Simulated 68 instructions in 8819 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002060
+[DEBUG] I1_Cache - Cache MISS for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache MISS for address 0x80002060
+[DEBUG] got instruction 00300313 at 80002060
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x3
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 13000 is: 3
+[OUT] 80002060 | next_pc = 80002064 | x6 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 69 instructions in 8932 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002064
+[DEBUG] I1_Cache - Cache MISS for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache MISS for address 0x80002064
+[DEBUG] got instruction 02695e63 at 80002064
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 18, rs2 = 6, imm = 0x3c
+[DEBUG] op1: 3, op2: 3
+[DEBUG] Result of 63500 is: True
+[OUT] 80002064 | next_pc = 800020a0 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 70 instructions in 9048 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x800020a0
+[DEBUG] I1_Cache - Cache MISS for address 0x800020a0
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a0
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a0
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a0
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a0
+[DEBUG] L2_Cache - Cache MISS for address 0x800020a0
+[DEBUG] got instruction 00300313 at 800020a0
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x3
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 13000 is: 3
+[OUT] 800020a0 | next_pc = 800020a4 | x6 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 71 instructions in 9161 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x800020a4
+[DEBUG] I1_Cache - Cache MISS for address 0x800020a4
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a4
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a4
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a4
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a4
+[DEBUG] L2_Cache - Cache MISS for address 0x800020a4
+[DEBUG] got instruction 026403b3 at 800020a4
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 8, rs2 = 6, imm = 0x0
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 33001 is: 0
+[OUT] 800020a4 | next_pc = 800020a8 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 72 instructions in 9274 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x800020a8
+[DEBUG] I1_Cache - Cache MISS for address 0x800020a8
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a8
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a8
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a8
+[DEBUG] L2_Cache - Cache HIT for address 0x800020a8
+[DEBUG] L2_Cache - Cache MISS for address 0x800020a8
+[DEBUG] got instruction 009383b3 at 800020a8
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 9, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 33000 is: 0
+[OUT] 800020a8 | next_pc = 800020ac | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 73 instructions in 9387 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x800020ac
+[DEBUG] I1_Cache - Cache MISS for address 0x800020ac
+[DEBUG] L2_Cache - Cache HIT for address 0x800020ac
+[DEBUG] L2_Cache - Cache HIT for address 0x800020ac
+[DEBUG] L2_Cache - Cache HIT for address 0x800020ac
+[DEBUG] L2_Cache - Cache HIT for address 0x800020ac
+[DEBUG] L2_Cache - Cache MISS for address 0x800020ac
+[DEBUG] got instruction 00239393 at 800020ac
+[DEBUG] opcode = 13, funct3 = 1, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x2
+[DEBUG] op1: 0, op2: 2
+[DEBUG] Result of 13100 is: 0
+[OUT] 800020ac | next_pc = 800020b0 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 74 instructions in 9500 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x800020b0
+[DEBUG] I1_Cache - Cache MISS for address 0x800020b0
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b0
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b0
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b0
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b0
+[DEBUG] L2_Cache - Cache MISS for address 0x800020b0
+[DEBUG] got instruction 00760e33 at 800020b0
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 12, rs2 = 7, imm = 0x0
+[DEBUG] op1: 2147516488, op2: 0
+[DEBUG] Result of 33000 is: 2147516488
+[OUT] 800020b0 | next_pc = 800020b4 | x28 = 80008048 | mem[?] = 00000000
+[INFO] Simulated 75 instructions in 9613 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x800020b4
+[DEBUG] I1_Cache - Cache MISS for address 0x800020b4
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b4
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b4
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b4
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b4
+[DEBUG] L2_Cache - Cache MISS for address 0x800020b4
+[DEBUG] got instruction 005e2023 at 800020b4
+[DEBUG] opcode = 23, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 28, rs2 = 5, imm = 0x0
+[DEBUG] op1: 2147516488, op2: 0
+[DEBUG] Result of 23200 is: 2147516488
+[DEBUG] L1_Cache - Cache HIT for address 0x80008048
+[DEBUG] L1_Cache - Cache MISS for address 0x80008048
+[DEBUG] L2_Cache - Cache HIT for address 0x80008048
+[DEBUG] L2_Cache - Cache HIT for address 0x80008048
+[DEBUG] L2_Cache - Cache HIT for address 0x80008048
+[DEBUG] L2_Cache - Cache HIT for address 0x80008048
+[DEBUG] L2_Cache - Cache MISS for address 0x80008048
+[OUT] 800020b4 | next_pc = 800020b8 | x? = 00000000 | mem[80008048] <= 00000003
+[INFO] Simulated 76 instructions in 9838 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x800020b8
+[DEBUG] I1_Cache - Cache MISS for address 0x800020b8
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b8
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b8
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b8
+[DEBUG] L2_Cache - Cache HIT for address 0x800020b8
+[DEBUG] L2_Cache - Cache MISS for address 0x800020b8
+[DEBUG] got instruction 00148493 at 800020b8
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 9, rs2 = 0, imm = 0x1
+[DEBUG] op1: 0, op2: 1
+[DEBUG] Result of 13000 is: 1
+[OUT] 800020b8 | next_pc = 800020bc | x9 = 00000001 | mem[?] = 00000000
+[INFO] Simulated 77 instructions in 9951 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x800020bc
+[DEBUG] I1_Cache - Cache MISS for address 0x800020bc
+[DEBUG] L2_Cache - Cache HIT for address 0x800020bc
+[DEBUG] L2_Cache - Cache HIT for address 0x800020bc
+[DEBUG] L2_Cache - Cache HIT for address 0x800020bc
+[DEBUG] L2_Cache - Cache HIT for address 0x800020bc
+[DEBUG] L2_Cache - Cache MISS for address 0x800020bc
+[DEBUG] got instruction f95ff06f at 800020bc
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = -0x6c
+[DEBUG] op1: 2147492028, op2: -108
+[DEBUG] Result of 6f000 is: 2147491920
+[OUT] 800020bc | next_pc = 80002050 | x0 = 80002050 | mem[?] = 00000000
+[INFO] Simulated 78 instructions in 10064 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002050
+[DEBUG] I1_Cache - Cache MISS for address 0x80002050
+[DEBUG] L2_Cache - Cache HIT for address 0x80002050
+[DEBUG] L2_Cache - Cache HIT for address 0x80002050
+[DEBUG] L2_Cache - Cache HIT for address 0x80002050
+[DEBUG] L2_Cache - Cache HIT for address 0x80002050
+[DEBUG] L2_Cache - Cache MISS for address 0x80002050
+[DEBUG] got instruction 00300313 at 80002050
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x3
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 13000 is: 3
+[OUT] 80002050 | next_pc = 80002054 | x6 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 79 instructions in 10177 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002054
+[DEBUG] I1_Cache - Cache MISS for address 0x80002054
+[DEBUG] L2_Cache - Cache HIT for address 0x80002054
+[DEBUG] L2_Cache - Cache HIT for address 0x80002054
+[DEBUG] L2_Cache - Cache HIT for address 0x80002054
+[DEBUG] L2_Cache - Cache HIT for address 0x80002054
+[DEBUG] L2_Cache - Cache MISS for address 0x80002054
+[DEBUG] got instruction 0664d663 at 80002054
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 9, rs2 = 6, imm = 0x6c
+[DEBUG] op1: 1, op2: 3
+[DEBUG] Result of 63500 is: False
+[OUT] 80002054 | next_pc = 80002058 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 80 instructions in 10293 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002058
+[DEBUG] I1_Cache - Cache MISS for address 0x80002058
+[DEBUG] L2_Cache - Cache HIT for address 0x80002058
+[DEBUG] L2_Cache - Cache HIT for address 0x80002058
+[DEBUG] L2_Cache - Cache HIT for address 0x80002058
+[DEBUG] L2_Cache - Cache HIT for address 0x80002058
+[DEBUG] L2_Cache - Cache MISS for address 0x80002058
+[DEBUG] got instruction 00000293 at 80002058
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 13000 is: 0
+[OUT] 80002058 | next_pc = 8000205c | x5 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 81 instructions in 10406 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000205c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000205c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000205c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000205c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000205c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000205c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000205c
+[DEBUG] got instruction 00000913 at 8000205c
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 13000 is: 0
+[OUT] 8000205c | next_pc = 80002060 | x18 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 82 instructions in 10519 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002060
+[DEBUG] I1_Cache - Cache MISS for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache MISS for address 0x80002060
+[DEBUG] got instruction 00300313 at 80002060
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x3
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 13000 is: 3
+[OUT] 80002060 | next_pc = 80002064 | x6 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 83 instructions in 10632 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002064
+[DEBUG] I1_Cache - Cache MISS for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache MISS for address 0x80002064
+[DEBUG] got instruction 02695e63 at 80002064
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 18, rs2 = 6, imm = 0x3c
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 63500 is: False
+[OUT] 80002064 | next_pc = 80002068 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 84 instructions in 10748 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002068
+[DEBUG] I1_Cache - Cache MISS for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache HIT for address 0x80002068
+[DEBUG] L2_Cache - Cache MISS for address 0x80002068
+[DEBUG] got instruction 026403b3 at 80002068
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 8, rs2 = 6, imm = 0x0
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 33001 is: 0
+[OUT] 80002068 | next_pc = 8000206c | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 85 instructions in 10861 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000206c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000206c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000206c
+[DEBUG] got instruction 012383b3 at 8000206c
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 18, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 33000 is: 0
+[OUT] 8000206c | next_pc = 80002070 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 86 instructions in 10974 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002070
+[DEBUG] I1_Cache - Cache MISS for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache HIT for address 0x80002070
+[DEBUG] L2_Cache - Cache MISS for address 0x80002070
+[DEBUG] got instruction 00239393 at 80002070
+[DEBUG] opcode = 13, funct3 = 1, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x2
+[DEBUG] op1: 0, op2: 2
+[DEBUG] Result of 13100 is: 0
+[OUT] 80002070 | next_pc = 80002074 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 87 instructions in 11087 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002074
+[DEBUG] I1_Cache - Cache MISS for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache HIT for address 0x80002074
+[DEBUG] L2_Cache - Cache MISS for address 0x80002074
+[DEBUG] got instruction 00750e33 at 80002074
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 10, rs2 = 7, imm = 0x0
+[DEBUG] op1: 2147516416, op2: 0
+[DEBUG] Result of 33000 is: 2147516416
+[OUT] 80002074 | next_pc = 80002078 | x28 = 80008000 | mem[?] = 00000000
+[INFO] Simulated 88 instructions in 11200 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002078
+[DEBUG] I1_Cache - Cache MISS for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache HIT for address 0x80002078
+[DEBUG] L2_Cache - Cache MISS for address 0x80002078
+[DEBUG] got instruction 000e2e83 at 80002078
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 28, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516416, op2: 0
+[DEBUG] Result of 03200 is: 2147516416
+[DEBUG] L1_Cache - Cache HIT for address 0x80008000
+[DEBUG] L1_Cache - Cache MISS for address 0x80008000
+[DEBUG] L2_Cache - Cache HIT for address 0x80008000
+[DEBUG] L2_Cache - Cache HIT for address 0x80008000
+[DEBUG] L2_Cache - Cache HIT for address 0x80008000
+[DEBUG] L2_Cache - Cache HIT for address 0x80008000
+[DEBUG] L2_Cache - Cache MISS for address 0x80008000
+[OUT] 80002078 | next_pc = 8000207c | x29 = 00000001 | mem[80008000] => 00000001
+[INFO] Simulated 89 instructions in 11425 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000207c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000207c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000207c
+[DEBUG] got instruction 026903b3 at 8000207c
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 18, rs2 = 6, imm = 0x0
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 33001 is: 0
+[OUT] 8000207c | next_pc = 80002080 | x7 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 90 instructions in 11538 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002080
+[DEBUG] I1_Cache - Cache MISS for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache HIT for address 0x80002080
+[DEBUG] L2_Cache - Cache MISS for address 0x80002080
+[DEBUG] got instruction 007483b3 at 80002080
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 9, rs2 = 7, imm = 0x0
+[DEBUG] op1: 1, op2: 0
+[DEBUG] Result of 33000 is: 1
+[OUT] 80002080 | next_pc = 80002084 | x7 = 00000001 | mem[?] = 00000000
+[INFO] Simulated 91 instructions in 11651 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002084
+[DEBUG] I1_Cache - Cache MISS for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache HIT for address 0x80002084
+[DEBUG] L2_Cache - Cache MISS for address 0x80002084
+[DEBUG] got instruction 00239393 at 80002084
+[DEBUG] opcode = 13, funct3 = 1, funct7 = 00
+[DEBUG] rs1 = 7, rs2 = 0, imm = 0x2
+[DEBUG] op1: 1, op2: 2
+[DEBUG] Result of 13100 is: 4
+[OUT] 80002084 | next_pc = 80002088 | x7 = 00000004 | mem[?] = 00000000
+[INFO] Simulated 92 instructions in 11764 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002088
+[DEBUG] I1_Cache - Cache MISS for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache HIT for address 0x80002088
+[DEBUG] L2_Cache - Cache MISS for address 0x80002088
+[DEBUG] got instruction 00758e33 at 80002088
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 11, rs2 = 7, imm = 0x0
+[DEBUG] op1: 2147516452, op2: 4
+[DEBUG] Result of 33000 is: 2147516456
+[OUT] 80002088 | next_pc = 8000208c | x28 = 80008028 | mem[?] = 00000000
+[INFO] Simulated 93 instructions in 11877 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000208c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000208c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000208c
+[DEBUG] got instruction 000e2f03 at 8000208c
+[DEBUG] opcode = 03, funct3 = 2, funct7 = 00
+[DEBUG] rs1 = 28, rs2 = 0, imm = 0x0
+[DEBUG] op1: 2147516456, op2: 0
+[DEBUG] Result of 03200 is: 2147516456
+[DEBUG] L1_Cache - Cache HIT for address 0x80008028
+[DEBUG] L1_Cache - Cache MISS for address 0x80008028
+[DEBUG] L2_Cache - Cache HIT for address 0x80008028
+[DEBUG] L2_Cache - Cache HIT for address 0x80008028
+[DEBUG] L2_Cache - Cache HIT for address 0x80008028
+[DEBUG] L2_Cache - Cache HIT for address 0x80008028
+[DEBUG] L2_Cache - Cache MISS for address 0x80008028
+[OUT] 8000208c | next_pc = 80002090 | x30 = 00000000 | mem[80008028] => 00000000
+[INFO] Simulated 94 instructions in 12102 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002090
+[DEBUG] I1_Cache - Cache MISS for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache HIT for address 0x80002090
+[DEBUG] L2_Cache - Cache MISS for address 0x80002090
+[DEBUG] got instruction 03ee8fb3 at 80002090
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 01
+[DEBUG] rs1 = 29, rs2 = 30, imm = 0x0
+[DEBUG] op1: 1, op2: 0
+[DEBUG] Result of 33001 is: 0
+[OUT] 80002090 | next_pc = 80002094 | x31 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 95 instructions in 12215 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002094
+[DEBUG] I1_Cache - Cache MISS for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache HIT for address 0x80002094
+[DEBUG] L2_Cache - Cache MISS for address 0x80002094
+[DEBUG] got instruction 01f282b3 at 80002094
+[DEBUG] opcode = 33, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 5, rs2 = 31, imm = 0x0
+[DEBUG] op1: 0, op2: 0
+[DEBUG] Result of 33000 is: 0
+[OUT] 80002094 | next_pc = 80002098 | x5 = 00000000 | mem[?] = 00000000
+[INFO] Simulated 96 instructions in 12328 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002098
+[DEBUG] I1_Cache - Cache MISS for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache HIT for address 0x80002098
+[DEBUG] L2_Cache - Cache MISS for address 0x80002098
+[DEBUG] got instruction 00190913 at 80002098
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 18, rs2 = 0, imm = 0x1
+[DEBUG] op1: 0, op2: 1
+[DEBUG] Result of 13000 is: 1
+[OUT] 80002098 | next_pc = 8000209c | x18 = 00000001 | mem[?] = 00000000
+[INFO] Simulated 97 instructions in 12441 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x8000209c
+[DEBUG] I1_Cache - Cache MISS for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache HIT for address 0x8000209c
+[DEBUG] L2_Cache - Cache MISS for address 0x8000209c
+[DEBUG] got instruction fc5ff06f at 8000209c
+[DEBUG] opcode = 6f, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = -0x3c
+[DEBUG] op1: 2147491996, op2: -60
+[DEBUG] Result of 6f000 is: 2147491936
+[OUT] 8000209c | next_pc = 80002060 | x0 = 80002060 | mem[?] = 00000000
+[INFO] Simulated 98 instructions in 12554 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002060
+[DEBUG] I1_Cache - Cache MISS for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache HIT for address 0x80002060
+[DEBUG] L2_Cache - Cache MISS for address 0x80002060
+[DEBUG] got instruction 00300313 at 80002060
+[DEBUG] opcode = 13, funct3 = 0, funct7 = 00
+[DEBUG] rs1 = 0, rs2 = 0, imm = 0x3
+[DEBUG] op1: 0, op2: 3
+[DEBUG] Result of 13000 is: 3
+[OUT] 80002060 | next_pc = 80002064 | x6 = 00000003 | mem[?] = 00000000
+[INFO] Simulated 99 instructions in 12667 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[DEBUG] I1_Cache - Cache HIT for address 0x80002064
+[DEBUG] I1_Cache - Cache MISS for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache HIT for address 0x80002064
+[DEBUG] L2_Cache - Cache MISS for address 0x80002064
+[DEBUG] got instruction 02695e63 at 80002064
+[DEBUG] opcode = 63, funct3 = 5, funct7 = 00
+[DEBUG] rs1 = 18, rs2 = 6, imm = 0x3c
+[DEBUG] op1: 1, op2: 3
+[DEBUG] Result of 63500 is: False
+[OUT] 80002064 | next_pc = 80002068 | x? = 00000000 | mem[?] = 00000000
+[INFO] Simulated 100 instructions in 12783 clock cycles
+[INFO] Cache statistics saved to stats_cache.json
+[INFO] Statistics saved to stats.json
